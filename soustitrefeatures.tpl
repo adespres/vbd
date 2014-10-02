@@ -1,5 +1,6 @@
 			<!-- features (caractéristiques) produit en sous titre - aymerick despres -->
 			<!-- ordre d'affichage géré par l'ordre des caractéristiques dans le back office -->
+                        <!-- test modification -->
 			{foreach from=$features item=feature}
 				{if isset($feature.value)}
 			 	{if $feature.id_feature eq '15'} <!-- Pays : France ... -->
